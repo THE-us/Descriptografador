@@ -12,9 +12,6 @@ public class Main
 		(
 			"\nDigite o código da frase do dia: " +
 
-			//"\nExemplo: Hello, World! It's your day." +
-			//"\nFicaria: _____, _____! __'_ ____ ___." +
-
 			"\n\nE deixe o Descriptografador fazer sua mágica." +
 			
 			"\n\n"
@@ -28,7 +25,8 @@ public class Main
 
 class Decifra 
 {
-	// Função que recebe como "___, __!"
+	// A função recebe a string cifrada unicamente em maiúsculo.
+	// Em minúsculo escreva apenas o que se tem certeza.
 	public static String decifrar (String str)
 	{
 		String palavras [] = str.split (" ");
@@ -52,18 +50,3 @@ class Decifra
 		return resp;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
