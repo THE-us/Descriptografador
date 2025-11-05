@@ -502,10 +502,3 @@ a watt waw
  * Podemos presumir que a quantia de respostas possíveis irão diminuir com mais dados.
  * Mas a quantia de cálculos ainda é colossal para esta aproximação, mesmo que sim, chegou ao resultado.
  *  */
-
-
-
-
-
-
-
