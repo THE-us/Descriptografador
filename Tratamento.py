@@ -5,7 +5,8 @@ def separarPorTamanho (arquivo_entrada):
     palavras_por_tamanho = {}
 
     for palavra in palavras:
-        tamanho = len (palavra.strip ())
+        palavra = palavra.strip ().lower ()
+        tamanho = len (palavra)
         if tamanho > 0:
             if tamanho not in palavras_por_tamanho:
                 palavras_por_tamanho[tamanho] = []
@@ -18,5 +19,5 @@ def separarPorTamanho (arquivo_entrada):
 
     return None
 
-# Exemplo de uso
-separarPorTamanho ("google-10000-english-no-swears.txt")
+# Usando
+separarPorTamanho ("words_database.txt")
